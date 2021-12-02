@@ -1,0 +1,164 @@
+/*----FONTES----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Saira+Condensed:wght@100;200;300;400;500;600&family=Source+Code+Pro:ital,wght@1,300&family=Titillium+Web:ital,wght@0,300;0,400;1,200&display=swap');
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    width: 100%;
+    position: relative;
+    background-color: #0a0e18;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family:'Saira Condensed', Arial, Helvetica, Sans-serif;
+    background: rgba 14, 9, 27, 0.6;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border-bottom: 1px solid rgba(114, 114, 126, 0.2);
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+header.sticky {
+    padding: 30px;
+}
+
+header .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 268px;
+    margin: auto;
+}
+
+
+nav .logo input {
+    color: #FEFBFB;
+    background: linear-gradient(
+224.78deg, #5390E3 8.12%, #1357B3 92.21%);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 30px;
+    transition: all 0.7s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;
+    border: 1px steelblue;
+    border-radius: 4px;
+}
+
+nav .logo input:hover {
+    font-size: 18px;
+    font-weight: 500;
+    background: linear-gradient(
+224.78deg, #5c9df8 8.12%, #2568c5 92.21%);
+    padding: 15px 40px;
+    border-radius: 3px;
+}
+
+nav .navList li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav .navList li a {
+    color: #c9c9c9;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    text-underline-offset: 6px;
+}
+
+nav .navList li a:hover {
+    color: #FEFBFB;
+    text-decoration: underline #2a7be4;
+    text-decoration-thickness: 3px;
+    transition: color 0.3s ease;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    min-height: 500px;
+    align-items: center;
+}
+
+.calc {
+    font-family: 'Rubik', sans-serif;
+    min-width: 300px;
+    min-height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 60px;
+    border: 2px solid;
+    border-image: linear-gradient(225deg, #1e5de7e3 0%, rgba(11, 52, 141, 0.568) 100%) 1;
+}
+
+main .calc .txt-input {
+    border-radius: 4px;
+    color: #F7F9FC;
+    font-weight: 200;
+}
+
+main .calc #expression {
+    background-color: #161f2e80;
+    color: #F7F9FC;
+    padding: 8px 12px;
+    border: 0;
+    line-height: 26px;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+}
+
+main .calc .btn-verificar button {
+    background: linear-gradient(
+224.78deg, #5390E3 8.12%, #1357B3 92.21%);
+color: #F7F9FC;
+padding: 8px;
+margin: 8px;
+margin-top: 30px;
+border: 0px;
+border-radius: 4px;
+align-items: center;
+position: absolute;
+left: 40%;
+width: 75px;
+}
+
+main .calc .btn-verificar button:hover {
+    background: linear-gradient(
+224.78deg, #5b9dfa 8.12%, #1664d1 92.21%);
+} 
+
+
+main .calc #result {
+    background: linear-gradient(
+        224.78deg, #5390E3 8.12%, #1357B3 92.21%);
+    margin: 5px;
+    padding: 15px 55px;
+    border-radius: 4px;
+    position: fixed;
+    top: 115%;
+    align-items: center;
+    color: #F7F9FC;
+    min-height: 20px;
+    min-width: 206px;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aaaaaaaaa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="max-width">
+                <div class="logo">
+                    <input type="button" value="MATH.LAB">
+                </div>
+                <ul class="navList">
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="calc">
+            <div class="txt-input"><input id="expression" type="text" placeholder="Insira a proposição aqui..."></div>
+            <div class="btn-verificar"><button type="button" onclick="evaluateExpression(document.getElementById('expression').value)">Validar</button></div>
+            <span id="result" readonly></span>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+</html>
