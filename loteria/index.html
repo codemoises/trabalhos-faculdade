@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Loteria</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <div class="logo"><a href="#">MATH.<span>LAB</span></a></div>
+        </div>
+    </header>
+    <main>
+        <div id='lottery'>
+            <label id='algorithm-lb'>LOTERIA</label>   
+            <div class="algoritmo-gerar-numeros">
+                <div class='btn-algorithms'>
+                    <h2>selecione o algoritmo:</h2>
+                    <input type="radio" value="0" name="algorithms" checked>
+                    <span>Fisher-Yates</span>
+                    <input type="radio" value="1" name="algorithms">
+                    <span>Atmospheric Noise</span>
+                </label>
+                </div>
+                <div class='gerar-numeros'>
+                    <button id="generate-btn" type="button" class="btn btn-outline-light" onclick="getRandomNumbers()">Gerar números:</button>
+                    <span id="result"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Feito orgulhosamente por João Pedro Guarany, João Paulo, Hamilton Teixeira e Moises Braga.</p>
+    </footer>
+    <script src='app.js'></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    margin: 0px;
+    height: 100%;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to bottom right, #0000ffc7, #6120ff);
+    height: 100%;   
+    margin: 0px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px; 
+    color: white;
+}
+
+header {
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.titulo {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+}
+
+.logo a {
+    color: #FEFBFB;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0px 15px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: rgba(102, 244, 216, 1.700);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 12%);
+    transition: all 0.50s ease;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: #FEFBFB;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 0px 25px;
+    border-radius: 3px;
+    border-color: rgba(102, 244, 216, 0.705);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 12%);
+}
+
+.logo a > span {
+    color: aqua;
+
+}
+
+main {
+    font-family: 'Quicksand', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    min-width: 200px;
+    max-width: 800px;
+
+}
+
+#lottery {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.418), -1px -1px 4px rgba(0, 0, 0, 0.418);
+}
+
+#algorithm-lb{
+    font-weight: 600;
+    margin: auto;
+    padding: 0px 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-top-color: rgb(102, 244, 216);
+    border-right-color: rgb(102, 244, 216);
+    border-bottom-color: rgb(102 244 216 / 45%);
+    border-left-color: rgb(102, 244, 216);
+    border-radius: 8px 8px 0px 0px;
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: 15px;
+}
+
+.btn-algorithms > span {
+    margin: 0px 50px 0px 7px;
+}
+
+.btn-algorithms {
+    margin: 30px;
+    padding: 23px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.btn-algorithms > h2 {
+    font-size: 1rem;
+    margin: auto;
+}
+
+.gerar-numeros {
+    padding: 50px 15px 15px 15px;
+    margin: -9px 0px 0px 145px;
+}
+
+.algoritmo-gerar-numeros {
+    margin: auto;
+    height: 300px;
+    align-items: center;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid;
+    border-top-color: rgb(102 244 216 / 45%);
+    border-right-color: rgb(102, 244, 216);
+    border-bottom-color: rgb(102, 244, 216);
+    border-left-color: rgb(102, 244, 216);
+}
+
+#result {
+    border-color: rgba(102, 244, 216, 0.705);
+}
+
+span#result {
+    font-size: 23px;
+    padding: 0px 12px;
+    margin: 1px 0px 0px 56px;
+}
+
+#generate-btn{
+    border-color: rgba(102, 244, 216, 1.700);
+    transition: all 0.50s ease;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 12%);
+}
+
+#generate-btn:hover{
+    background-color: rgba(130, 28, 226, 0.425);
+    border-color: rgba(102, 244, 216, 1.700);
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 12%);
+    color: white;
+}
+
+footer {
+    position: fixed;
+    padding: 8px;
+    border: 1px solid;
+    border-color: rgba(102, 244, 216, 0.705);
+    height: 50; width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+
+  }
+
+  footer > p {
+    margin: auto;  
+    padding: 0px
+  }
