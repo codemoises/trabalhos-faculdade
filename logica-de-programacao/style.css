@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Saira+Condensed:wght@100;200;300;400;500;600&family=Source+Code+Pro:ital,wght@1,300&family=Titillium+Web:ital,wght@0,300;0,400;1,200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+header {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+main {
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    width: 800px;
+    padding: 8px;
+}
+
+#res {
+    width: 100%;
+    margin: 20px;
+
+}
+
+input {
+    padding: 8px;
+    border: 1px solid;
+}
+
+.closeButton {
+    position: absolute;
+    top: 128%;
+    left: 28%;
+}
+
+button {
+    width: 108px;
+    height: 44px;
+    border: 1px solid;
+
+}
+
+
