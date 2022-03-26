@@ -75,6 +75,7 @@
         justify-content: center;
         margin-top: 25px;
     }
+    
 
     .container {
         max-width: 900px;
@@ -85,10 +86,6 @@
 
 .descricao{
     padding-bottom: 4px;
-}
-
-.descricao input {
-    height: 30px;
 }
 
     </style>
@@ -159,7 +156,7 @@
                 <label for="lname">Seu contato (e-mail / Phone):</label><br>
                 <input type="text" id="lname" name="lname"><br>
                 <label for="ldescricao">Descrição</label><br>
-                <div class="descricao"><input type="text" name="fdescricao" id="fdescricao"></div>
+                <textarea class="descricao" cols="21" rows="2" required></textarea><br>
                 <input type="button" value="Enviar">
             </form>
         </div>
