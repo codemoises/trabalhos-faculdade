@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 
-.menu ul {
+.menu .menu-content nav ul {
 list-style: none;
 display: flex;
 }
