@@ -32,7 +32,6 @@ display: flex;
 }
 
 .menu ul a {
-    /*display: block;*/
     padding: 4px;
     position: relative;
 }
@@ -71,6 +70,6 @@ margin: 0 auto;
 padding: 96px 24px;
 }
 
-.descricao{
+.descricao {
 padding-bottom: 4px;
 }
